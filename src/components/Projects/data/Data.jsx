@@ -25,7 +25,7 @@ const projects = [
       "Transform text effortlessly with TextUtils: convert to uppercase, lowercase, and beyond. Streamline your text processing tasks with ease!",
     image: TextUtils,
     technologies: ["HTML ", "CSS ", "ReactJS ", "BootStrap "],
-    explore: "https://github.com/ganeshshelkeGCS/TextUtilities",
+    explore: "https://ganeshshelkegcs.github.io/TextUtilities/",
   },
 ];
 
