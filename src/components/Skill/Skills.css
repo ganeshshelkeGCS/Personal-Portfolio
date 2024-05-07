@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box
+}
+
+.contactHeading {
+    padding-top: 0px;
+}
+
+.mainContainer{
+   margin-left: 10px;
+   margin-right: 80px;
+   margin-top: 40px;
+
+}
+
+.container {
+    animation-name: moveLeftToRight;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards; /* Keeps the last frame of the animation */
+}
+
+
+
+.skills {
+    text-align: right;
+    padding-top: 5px;
+    padding-right: 8px;;
+    padding-bottom: 10px;
+    color: #000;
+    height: 30px;
+}
+
+.html {
+    height: 30px;
+    width: 90%;
+    background-color: rgb(105, 104, 107);
+}
+
+.css {
+    width: 70%;
+    background-color: rgb(105, 104, 107);
+}
+
+.js {
+    width: 80%;
+    background-color: rgb(105, 104, 107);
+}
+
+.react {
+    width: 40%;
+    background-color: rgb(105, 104, 107);
+}
+
+.java {
+    width: 50%;
+    background-color: rgb(105, 104, 107);
+}
+.mysql {
+    width: 60%;
+    background-color: rgb(105, 104, 107);
+}
+
+.github {
+    width: 55%;
+    background-color: rgb(105, 104, 107);
+}
+
+/* the animation */
+@keyframes moveLeftToRight {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+.html, .css, .js, .react, .java, .mysql, .github{
+    animation-name: moveLeftToRight;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out ;
+}
+
+
+.mainDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 5px;
+}
+
+.left {
+    width: 20%;
+    height: 30px;
+}
+
+.right {
+    width: 80%; /* Adjusted to 80% */
+    height: 30px;
+    background-color: rgb(241, 242, 243);
+}

@@ -1,0 +1,41 @@
+.headingAbout {
+    opacity: 0;
+    animation: fadeInHeading 1s ease forwards; 
+  }
+  
+  .about {
+    margin-left: 30px;
+  }
+  
+  .aboutInfo {
+    opacity: 0; 
+    margin-left: 200px;
+    height: 50px;
+    width: 420px;
+    font-size: 40px;
+    font-weight: 500;
+    color: black;
+    line-height: 50px;
+    animation: slideInText 2s ease forwards; 
+  }
+  
+  @keyframes fadeInHeading {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1; /* Fade in the heading */
+    }
+  }
+  
+  @keyframes slideInText {
+    from {
+      opacity: 0;
+      transform: translateX(-90px); /* Start off-screen to the left */
+    }
+    to {
+      opacity: 1; /* Fade in the text */
+      transform: translateX(10); /* Slide in from left to right */
+    }
+  }
+  

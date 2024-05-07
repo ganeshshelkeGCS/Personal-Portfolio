@@ -1,0 +1,63 @@
+.mainContainer {
+    background-color: white;
+    height: 840px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ 
+}
+
+.about {
+    width: 30px;
+    margin-top: 120px;
+}
+
+.leftContainer {
+    display: flex;
+    justify-content: flex-end;
+}
+.photo {
+    margin-top: 20px;
+    margin-right: 40px;
+    height: 500px;
+    width: 500px;
+
+}
+
+
+
+
+.rightContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    margin-right: 120px;
+    margin-top: 40px;
+    font-size: 26px;
+}
+
+.rightContainer span {
+    line-height: 50px;
+}
+
+.decoration1 {
+    text-decoration: none;
+    color: black;
+}
+
+.decoration2 {
+    text-decoration: none;
+    color: black;
+    margin-right: 120px;
+}
+
+
+.decoration3 {
+    text-decoration: none;
+    color: black;
+    margin-right: 110px;
+}
+.resume {
+    margin-left: 1300px;
+    padding: 10px;
+}

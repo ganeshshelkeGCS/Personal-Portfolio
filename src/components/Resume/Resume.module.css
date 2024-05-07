@@ -1,0 +1,14 @@
+.resumeButton {
+    height: 20px;
+}
+
+.resumeButton {
+    border: none;
+    width: 120px;
+    height: 35px;
+    margin-right: 90px;
+    margin-top: 8px;
+    border-radius: 4px;
+    font-size: medium
+}
+
