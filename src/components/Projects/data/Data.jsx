@@ -9,7 +9,7 @@ const projects = [
       "Bringing Creativity to Life In this captivating React project, I embarked on a journey to showcase the power of creativity through interactive poster designs. Leveraging the versatility of React.js",
     image: ReactPoster,
     technologies: ["HTML ", "CSS ", "ReactJS ", "ExpressJS "],
-    explore: "https://github.com/ganeshshelkeGCS/ReactPoster",
+    explore: "https://ganeshshelkegcs.github.io/ReactPoster/",
   },
   {
     title: "Doctors At Door Step",
@@ -17,7 +17,7 @@ const projects = [
       "'Doctor at Doorstep' is a pioneering project aimed at revolutionizing healthcare accessibility by bringing medical expertise directly to the doorstep of individuals. With the days of long waiting times in crowded clinics ",
     image: Doctor,
     technologies: ["HTML ", "CSS ", "AngularJS ", "Java ", "MySQL"],
-    explore: "https://github.com/ganeshshelkeGCS/ReactPoster",
+    explore: "https://github.com/ganeshshelkeGCS/DoctorAtDoorStep",
   },
   {
     title: "TextUtils",
