@@ -56,7 +56,7 @@
 
 .project:hover {
     box-shadow: 0 0 10px 1px gray;
-    transform: scale(0.9);
+    transform: scale(1.01);
     margin: 10px;
 
   }
@@ -76,7 +76,7 @@
 }
 
 .exploreProjects:hover {
-  background-color: rgb(245, 241, 241);
+  background-color: rgb(234, 234, 234);
 }
 
 

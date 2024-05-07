@@ -9,7 +9,7 @@ const projects = [
       "Bringing Creativity to Life In this captivating React project, I embarked on a journey to showcase the power of creativity through interactive poster designs. Leveraging the versatility of React.js",
     image: ReactPoster,
     technologies: ["HTML ", "CSS ", "ReactJS ", "ExpressJS "],
-    explore: "https://ganeshshelkegcs.github.io/ReactPoster/",
+    explore: "https://github.com/ganeshshelkeGCS/ReactPoster",
   },
   {
     title: "Doctors At Door Step",
