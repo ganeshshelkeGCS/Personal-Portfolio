@@ -17,7 +17,7 @@ const projects = [
       "Bringing the world to your fingertips: News that matters, anytime, anywhere. 'Your daily dose of news, simplified.'",
     image: NewsApi,
     technologies: ["HTML ", "CSS ", "React.js (News API)"],
-    explore: "https://github.com/ganeshshelkeGCS/DoctorAtDoorStep",
+    explore: "https://ganeshshelkegcs.github.io/News-App/",
   },
   {
     title: "TextUtils",
