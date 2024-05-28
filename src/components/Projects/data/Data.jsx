@@ -1,6 +1,6 @@
 import ReactPoster from "../../../images/image2.png";
-import Doctor from "../../../images/doctor.png";
-import TextUtils from "../../../images/image.png";
+import NewsApi from "../../../images/image.png";
+import TextUtils from "../../../images/image3.png";
 
 const projects = [
   {
@@ -12,11 +12,11 @@ const projects = [
     explore: "https://github.com/ganeshshelkeGCS/ReactPoster",
   },
   {
-    title: "Doctors At Door Step",
+    title: "News",
     description:
-      "'Doctor at Doorstep' is a pioneering project aimed at revolutionizing healthcare accessibility by bringing medical expertise directly to the doorstep of individuals. With the days of long waiting times in crowded clinics ",
-    image: Doctor,
-    technologies: ["HTML ", "CSS ", "AngularJS ", "Java ", "MySQL"],
+      "Bringing the world to your fingertips: News that matters, anytime, anywhere. 'Your daily dose of news, simplified.'",
+    image: NewsApi,
+    technologies: ["HTML ", "CSS ", "React.js (News API)"],
     explore: "https://github.com/ganeshshelkeGCS/DoctorAtDoorStep",
   },
   {
