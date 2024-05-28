@@ -1,3 +1,8 @@
+:root {
+  --var1:  hidden;
+  --var2:  visible;
+}
+
 .container {
   margin-top: 60px;
 }
@@ -6,96 +11,6 @@
   text-align: left;
   margin-left: 30px;
   width: 100px;
-}
-/*  
-.projectContainer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  height: 460px;
-  margin: 30px;
-  gap: 2rem;
-  animation: slidein 2s ease forwards;
-}
-
-.project {
-  background-color: white;
-  height: 100%;
-  width: 100%;
-  border-radius: 20px;
-  text-align: center;
-}
-.project img {
-    border-radius: 20px;
-  width: 410px;
-  height: 200px;
-  padding: 6px;
-  margin-top: 4px;
-}
-
-.projectInfo {
-  font-size: 19px;
-  text-align: center;
-  padding: 4px;
-}
-
-.projectTitle {
-    font-weight: 600;
-    font-size: 22px;
-    text-align: center;
-    padding: 4px;
-
-}
-
-.projectTechnology {
-    font-weight: 600;
-    font-size: 19px;
-    text-align: center;
-    padding: 4px;
-}
-
-.project:hover {
-    box-shadow: 0 0 10px 1px gray;
-    transform: scale(1.01);
-    margin: 10px;
-
-  }
-
-  .exploreProjects {
-    margin-top: 6px;
-    width: 90px;
-    height: 30px;
-    border-radius: 8px;
-    background-color: white;
-  }
-
-.exploreProjects a {
-  text-decoration: none;
-  color: black;
-  font-size: 16px;
-}
-
-.exploreProjects:hover {
-  background-color: rgb(234, 234, 234);
-}
-
-
-
-
-
-  @keyframes slidein {
-    from {
-        transform: translateX(-100%);
-    }
-    to {
-        transform: translate(0%);
-    }
-  }   */
-
-  
-:root {
-  --var1:  hidden;
-  --var2:  visible;
 }
 
 .cardsContainer {

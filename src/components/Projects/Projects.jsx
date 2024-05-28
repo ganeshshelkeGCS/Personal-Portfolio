@@ -13,23 +13,7 @@ export default function Projects() {
       <div className={styles.projectHeading}>
         <h1>Projects</h1>
       </div>
-      {/* <div className={styles.projectContainer}>
-       
-        {projects.map((project, index) => (
-          <div className={styles.project} key={index}>
-            <img src={project.image} alt={project.title} />
-            <div className={styles.projectInfo}>
-              <span className={styles.projectTitle}>{project.title} 
-              </span>
-              <br />
-              <button className={styles.exploreProjects}><a href={project.explore} target="_blank">Explore</a></button>
-              <p>{project.description}</p>
-              <p className={styles.projectTechnology}>{project.technologies.join(", ")}</p>
-            </div>
-          </div> 
-        ))}
-      </div>
-       */}
+      
 <div className={styles.cardsContainer} >
       {projects.map((project, index) => (
         <div className={styles.card} key={index}>
