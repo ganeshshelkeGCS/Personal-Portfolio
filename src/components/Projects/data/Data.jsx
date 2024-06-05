@@ -1,6 +1,9 @@
+import ImdbClone from "../../../images/image.png";
 import ReactPoster from "../../../images/image2.png";
-import NewsApi from "../../../images/image.png";
 import TextUtils from "../../../images/image3.png";
+import NewsApi from "../../../images/image4.png";
+
+
 
 const projects = [
   {
@@ -26,6 +29,14 @@ const projects = [
     image: TextUtils,
     technologies: ["HTML ", "CSS ", "ReactJS ", "BootStrap "],
     explore: "https://ganeshshelkegcs.github.io/TextUtilities/",
+  },
+  {
+    title: "IMDB Clone",
+    description:
+      "IMDb (Internet Movie Database) is an extensive online database of information related to films, television programs, home videos, and streaming content.",
+    image: ImdbClone,
+    technologies: ["Next.Js ", "Tailwind-CSS ", "IMDB API "],
+    explore: "https://github.com/ganeshshelkeGCS/IMDB-using-next.JS",
   },
 ];
 
