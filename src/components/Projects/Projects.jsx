@@ -10,7 +10,7 @@ export default function Projects() {
       </div>
 
       <div className={styles.sliderContainer}>
-        <button className={styles.prevButton}>&#8249;</button>
+        <button className={styles.prevButton}>&#8249;&#8249;</button>
         <div className={styles.cardsContainer}>
           {projects.map((project, index) => (
             <div className={styles.card} key={index}>
@@ -30,7 +30,7 @@ export default function Projects() {
             </div>
           ))}
         </div>
-        <button className={styles.nextButton}>&#8250;</button>
+        <button className={styles.nextButton}>&#8250;&#8250;</button>
       </div>
     </div>
   );
