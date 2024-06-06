@@ -1,63 +1,57 @@
 .mainContainer {
-    background-color: white;
-    height: 840px;
+    /* border: 1px solid; */
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
- 
+    align-items: center;
 }
 
-.about {
-    width: 30px;
-    margin-top: 120px;
+.leftContainer{
+   padding: auto;
 }
 
-.leftContainer {
-    display: flex;
-    justify-content: flex-end;
-}
 .photo {
-    margin-top: 20px;
-    margin-right: 40px;
-    height: 500px;
+    /* border: 1px solid; */
     width: 500px;
-
+    padding: 20px;
 }
 
-
-
-
-.rightContainer {
+.BelowrightContainer {
+    /* border: 1px solid; */
     display: flex;
     flex-direction: column;
-    text-align: end;
-    margin-right: 120px;
-    margin-top: 40px;
-    font-size: 26px;
+    align-items: flex-end; 
+    font-size: 25px;
+    margin-right: 80px;
+    padding: 2px;
+    padding-right: 20px;
 }
 
-.rightContainer span {
-    line-height: 50px;
+.BelowrightContainer span {
+    line-height: 20px;
 }
 
-.decoration1 {
-    text-decoration: none;
-    color: black;
-}
-
-.decoration2 {
-    text-decoration: none;
-    color: black;
-    margin-right: 120px;
-}
-
-
+.decoration1,
+.decoration2,
 .decoration3 {
     text-decoration: none;
     color: black;
-    margin-right: 110px;
 }
+
 .resume {
-    margin-left: 1300px;
-    padding: 10px;
+    padding: 8px;
+}
+
+.contactIcon {
+    height: 50px;
+    border-radius: 10px;
+}
+
+
+.contactIcomMain {
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 30px;
+    margin-right: 20px;
+    padding: 8px;
 }
