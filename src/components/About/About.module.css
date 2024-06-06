@@ -21,18 +21,32 @@
       opacity: 0;
     }
     to {
-      opacity: 1; /* Fade in the heading */
+      opacity: 1; 
     }
   }
   
   @keyframes slideInText {
     from {
       opacity: 0;
-      transform: translateX(-90px); /* Start off-screen to the left */
+      transform: translateX(-90px); 
     }
     to {
-      opacity: 1; /* Fade in the text */
-      transform: translateX(10); /* Slide in from left to right */
+      opacity: 1; 
+      transform: translateX(10); 
     }
   }
-  
+
+  @media only screen and (max-width: 600px) {
+    .aboutInfo { 
+      margin-left: 0px;
+      margin-right: 20px;
+      height: 50px;
+      width: 520px;
+      font-size: 35px;
+      font-weight: 400;
+      color: black;
+      line-height: 45px;
+      padding: 50px;
+      margin-bottom: 280px;
+    }
+  }

@@ -167,3 +167,67 @@
 .nextButton {
   right: 16px;
 }
+
+
+@media (max-width: 600px) {
+  .sliderContainer {
+    height: 500px; /* Adjust the height as per your preference */
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  .cardsContainer {
+    flex-direction: column;
+    align-items: center;
+    overflow-x: unset;
+    margin-left: 0;
+    margin-right: 0;
+    gap: 20px;
+    padding: 10px;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 400px; /* Adjust the maximum width as per your preference */
+    aspect-ratio: unset;
+    flex-direction: column;
+    margin-left: 0;
+  }
+
+  .card .imageBox {
+    height: 250px; /* Adjust the height as per your preference */
+  }
+
+  .content {
+    width: 100%;
+    position: static;
+    transform: none;
+    padding: 20px;
+  }
+
+  .content h2,
+  .content p {
+    opacity: 1;
+    color: inherit;
+  }
+
+  .content h2 {
+    scale: 1;
+    margin-bottom: 10px;
+  }
+
+  .content p {
+    transform: none;
+    visibility: visible;
+    font-size: 14px;
+  }
+
+  .exploreProjects {
+    visibility: visible;
+  }
+
+  .prevButton,
+  .nextButton {
+    display: none; /* Hide the previous and next buttons */
+  }
+}
